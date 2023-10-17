@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace InheritanceOOP
 {
-    internal class Ant
+    internal class Ant : Insect
     {
+        public Ant(string name, int age, string habitat, double weight, string favoriteFood, string gender, bool isSpotted, bool isMulticolored, bool isPredator)
+            : base(name, age, habitat, weight, favoriteFood, gender, 6, 1, isSpotted, isMulticolored, isPredator)
+        {
+        }
+
+        public void Flutter()
+        {
+            Console.WriteLine($"{Name} flutters its wings.");
+        }
+
+        public override void MakeSound()
+        {
+            Console.WriteLine($"{Name} marches as she helps rebuild the ant stack.");
+        }
     }
 }
