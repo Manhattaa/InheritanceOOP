@@ -44,16 +44,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
+    <Compile Include="Ant.cs" />
+    <Compile Include="Bee.cs" />
     <Compile Include="Butterfly.cs" />
     <Compile Include="Chameleon.cs" />
     <Compile Include="Cow.cs" />
     <Compile Include="Crocodile.cs" />
+    <Compile Include="Daisy.cs" />
     <Compile Include="Dog.cs" />
+    <Compile Include="Grasshopper.cs" />
     <Compile Include="Iguana.cs" />
     <Compile Include="Lion.cs" />
     <Compile Include="Flower.cs" />
     <Compile Include="Insect.cs" />
     <Compile Include="Mammal.cs" />
+    <Compile Include="Mosquito.cs" />
     <Compile Include="Orchid.cs" />
     <Compile Include="Plant.cs" />
     <Compile Include="AnimalProgram.cs" />
@@ -63,8 +68,11 @@
     <Compile Include="Rose.cs" />
     <Compile Include="Snake.cs" />
     <Compile Include="Spider.cs" />
+    <Compile Include="Sunflower.cs" />
     <Compile Include="Tarantula.cs" />
     <Compile Include="Tarzan.cs" />
+    <Compile Include="Tulip.cs" />
+    <Compile Include="Turtle.cs" />
     <Compile Include="VenusFlyTrap.cs" />
   </ItemGroup>
   <ItemGroup>
